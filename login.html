@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Đăng nhập | Vinh Store</title>
+</head>
+
+<body class="login-page">
+    <main class="main">
+        <section class="box">
+            <a href="index.html" class="brand">
+                Vinh <span>Store</span>
+            </a>
+
+            <h1 id="title">ĐĂNG NHẬP</h1>
+            <p class="subtitle">Chào mừng bạn trở lại!</p>
+
+            <form id="form" method="post">
+                <div class="login">
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        class="username"
+                        placeholder="Tên đăng nhập"
+                        aria-label="Tên đăng nhập"
+                        minlength="6"
+                        maxlength="18"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+
+                <div class="login password">
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="password"
+                        minlength="6"
+                        maxlength="18"
+                        placeholder="Mật khẩu"
+                        aria-label="Mật khẩu"
+                        autocomplete="current-password"
+                        required
+                    >
+
+                    <button
+                        type="button"
+                        id="toggle-password"
+                        class="toggle-password"
+                        aria-label="Hiện mật khẩu"
+                        aria-controls="password"
+                    >Hiện</button>
+                </div>
+
+                <button type="submit" class="submit">
+                    Đăng nhập
+                </button>
+
+            </form>
+
+            <div class="links">
+                <a href="register.html">
+                    Chưa có tài khoản? <strong>Đăng ký</strong>
+                </a>
+                <a href="index.html">← Quay về trang chủ</a>
+            </div>
+        </section>
+
+        <div class="loginside" aria-hidden="true">
+            <img src="img/login-side.png" alt="">
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container header-top">
+            <div class="brand">
+                <img src="img/arch.png" alt="logo" class="logo">
+                <a href="index.html" class="store">Vinh <span>Store</span></a>
+            </div>
+            <form class="search-box" action="#">
+                <input type="text" placeholder="Tìm sản phẩm...">
+                <button type="submit">Tìm</button>
+            </form>
+            <a href="gio-hang.html" class="cart">
+                Giỏ hàng <span class="cart-count">0</span>
+            </a>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li>
+                        <a href="danh-muc.html">Sản phẩm ▾</a>
+                        <ul class="dropdown">
+                        <li><a href="danh-muc-ao.html" >Áo</a></li>
+                        <li><a href="danh-muc-quan.html">Quần</a></li>
+                        <li><a href="danh-muc-giay.html">Giày</a></li>
+                        <li><a href="danh-muc-phu-kien.html">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html" class="login-link">Đăng nhập</a></li>
+                    <li><a href="register.html" class="register-link">Đăng ký</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Trang chủ</a><span>&gt;</span>
+                <a href="danh-muc.html">Sản phẩm</a><span>&gt;</span>
+                <a href="danh-muc-giay.html">Giày</a><span>&gt;</span>
+                <a href="giaybupbe.html">Giày búp bê</a>
+            </div>
+
+            <section class="detail">
+                <div class="detail-gallery">
+                    <label class="zoom-box">
+                        <img src="img/giaybupbe.png" alt="Giày búp bê">
+                    </label>
+                </div>
+
+                <div class="detail-info">
+                    <h1>Giày búp bê</h1>
+                    <p class="price">900.000đ</p>
+                
+
+                <div class="option">
+                    <label>Kích cỡ:</label><br>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </div>
+                <div class="option">
+                    <label>Màu sắc:</label><br>
+                    <select>
+                        <option>Đen</option>
+                        <option>Xanh dương</option>
+                        <option>Trắng</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label>Số lượng:</label><br>
+                    <input type="number" value="1" min="1" class="quantity">
+                </div>
+
+                <a href="#" class="btn">Thêm vào giỏ</a>
+                </div>
+            </section>
+            
+            <section class="detail-more">
+                <h2>Bảng size</h2>
+                <table>
+                    <tr>
+                        <th>Size</th>
+                        <th>Chiều cao (cm)</th>
+                        <th>Cân nặng (kg)</th>
+                    </tr>
+                    <tr><td>S</td><td>150-160</td><td>45-52</td></tr>
+                    <tr><td>M</td><td>160-168</td><td>52-60</td></tr>
+                    <tr><td>L</td><td>168-175</td><td>60-70</td></tr>
+                    <tr><td>XL</td><td>175-183</td><td>70-80</td></tr>
+                </table>
+
+                <h2>Đánh giá của khách hàng</h2>
+                <div class="review"><strong>lananhhello1123: </strong>Áo rất là mát và đẹp, nên mua.</div>
+                <div class="review"><strong>minhquan12345: </strong>Áo chất lượng rất tốt, mang rất thoải mái và dễ chịu.</div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Sản phẩm liên quan</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <label class="zoom-box">
+                            <img src="img/giaycaogot.png" alt="Giày cao gót">
+                        </label>
+                        <div class="product-info">
+                            <a href="giaycaogot.html" class="product-name">Giày cao gót</a>
+                            <p class="price">1.500.000đ</p>
+                            <a href="giaycaogot.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge">-20%</span>
+                        <label class="zoom-box">
+                            <img src="img/giaythethaocothap.png" alt="Giày thể thao cổ thấp">
+                        </label>
+                        <div class="product-info">
+                            <a href="giaythethaocothap.html" class="product-name">Giày thể thao cổ thấp</a>
+                            <p class="price"><del>1.000.000đ</del> 800.000đ</p>
+                            <a href="giaythethaocothap.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <label class="zoom-box">
+                            <img src="img/giaychaybo.png" alt="Giày chạy bộ">
+                        </label>
+                        <div class="product-info">
+                            <a href="giaychaybo.html" class="product-name">Giày chạy bộ</a>
+                            <p class="price">2.000.000đ</p>
+                            <a href="giaychaybo.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <label class="zoom-box">
+                            <img src="img/giaythethaococao.png" alt="Giày thể thao cổ cao">
+                        </label>
+                        <div class="product-info">
+                            <a href="giaythethaococao.html" class="product-name">Giày thể thao cổ cao</a>
+                            <p class="price">1.500.000đ</p>
+                            <a href="giaythethaococao.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>    
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-brand">Vinh <span>Store</span></p>
+        <p class="footer-tagline">Đơn giản mỗi ngày, tự tin theo cách bạn.</p>
+        <p class="copyright">© 2026 Vinh Store</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<main>
+    <header>
+        <div class="container header-top">
+            <div class="brand">
+                <img src="img/arch.png" alt="logo" class="logo">
+                <a href="index.html" class="store">Vinh <span>Store</span></a>
+            </div>
+            <form class="search-box" action="#">
+                <input type="text" placeholder="Tìm sản phẩm...">
+                <button type="submit">Tìm</button>
+            </form>
+            <a href="gio-hang.html" class="cart">
+                Giỏ hàng <span class="cart-count">0</span>
+            </a>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li>
+                        <a href="danh-muc.html">Sản phẩm ▾</a>
+                        <ul class="dropdown">
+                        <li><a href="danh-muc-ao.html" >Áo</a></li>
+                        <li><a href="danh-muc-quan.html">Quần</a></li>
+                        <li><a href="danh-muc-giay.html">Giày</a></li>
+                        <li><a href="danh-muc-phu-kien.html">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html" class="login-link">Đăng nhập</a></li>
+                    <li><a href="register.html" class="register-link">Đăng ký</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Trang chủ</a><span> &gt;</span>
+                <a href="danh-muc.html">Sản phẩm</a>
+            </div>
+
+            <div class="layout-2col">
+
+                <aside class="sidebar">
+                    <h3>Thể loại</h3>
+                    <ul>
+                        <li><a href="danh-muc.html">Tất cả</a></li>
+                        <li><a href="danh-muc-ao.html">Áo</a></li>
+                        <li><a href="danh-muc-quan.html">Quần</a></li>
+                        <li><a href="danh-muc-giay.html">Giày</a></li>
+                        <li><a href="danh-muc-phu-kien.html">Phụ kiện</a></li>
+                    </ul>
+                    </form>
+                </aside>
+                <section>
+                    <h2 class="section-title">Tất cả sản phẩm</h2>
+                    <div class="product-grid" id="all-products">
+                        <div class="product-card">
+                            <span class="badge">-30%</span>
+                            <label class="zoom-box">
+                                <img src="img/aothuntroncotron.png" alt="Áo thun trơn cổ tròn">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aothuntroncotron.png" class="product-name">Áo thun trơn cổ tròn</a>
+                                <p class="price"><del>350.000đ</del> 245.000đ</p>
+                                <a href="aothuntroncotron.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aothunsocngang.png" alt="Áo thun sọc ngang">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aothunsocngang.png" class="product-name">Áo thun sọc ngang</a>
+                                <p class="price">320.000đ</p>
+                                <a href="aothunsocngang.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aothuninhinhcodien.png" alt="Áo thun in hình cổ điển">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aothuninhinhcodien.png" class="product-name">Áo thun in hình cổ điển</a>
+                                <p class="price">520.000đ</p>
+                                <a href="aothuninhinhcodien.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aothundangrong.png" alt="Áo thun dáng rộng">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aothundangrong.png" class="product-name">Áo thun dáng rộng</a>
+                                <p class="price">390.000đ</p>
+                                <a href="aothundangrong.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aothuncobephoivien.png" alt="Áo thun cổ bẻ phối viền">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aothuncobephoivien.png" class="product-name">Áo thun cổ bẻ phối viền</a>
+                                <p class="price">280.000đ</p>
+                                <a href="aothuncobephoivien.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aosomivailanhngantay.png" alt="Áo sơ mi vải lanh ngắn tay">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aosomivailanhngantay.png" class="product-name">Áo sơ mi vải lanh ngắn tay</a>
+                                <p class="price">400.000đ</p>
+                                <a href="aosomivailanhngantay.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aosomikeo.png" alt="Áo sơ mi kẻ ô">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aosomikeo.png" class="product-name">Áo sơ mi kẻ ô</a>
+                                <p class="price">480.000đ</p>
+                                <a href="aosomikeo.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/aosomidaitay.png" alt="Áo sơ mi dài tay">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/aosomidaitay.png" class="product-name">Áo sơ mi dài tay</a>
+                                <p class="price">540.000đ</p>
+                                <a href="aosomidaitay.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <span class="badge">-20%</span>
+                            <label class="zoom-box">
+                                <img src="img/giaythethaocothap.png" alt="Giày thể thao cổ thấp">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giaythethaocothap.png" class="product-name">Giày thể thao cổ thấp</a>
+                                <p class="price"><del>1.000.000đ</del> 800.000đ</p>
+                                <a href="giaythethaocothap.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giayvaibuocday.png" alt="Giày vải buộc dây">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giayvaibuocday.png" class="product-name">Giày vải buộc dây</a>
+                                <p class="price">1.300.000đ</p>
+                                <a href="giayvaibuocday.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giaythethaococao.png" alt="Giày thể thao cổ cao">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giaythethaococao.png" class="product-name">Giày thể thao cổ cao</a>
+                                <p class="price">1.500.000đ</p>
+                                <a href="giaythethaococao.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giaydabuocday.png" alt="Giày da buộc dây">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giaydabuocday.png" class="product-name">Giày da buộc dây</a>
+                                <p class="price">1.400.400đ</p>
+                                <a href="giaydabuocday.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giaychaybo.png" alt="Giày chạy bộ">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giaychaybo.png" class="product-name">Giày chạy bộ</a>
+                                <p class="price">2.000.000đ</p>
+                                <a href="giaychaybo.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giaycaogot.png" alt="Giày cao gót">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giaycaogot.png" class="product-name">Giày cao gót</a>
+                                <p class="price">1.500.000đ</p>
+                                <a href="giaycaogot.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giaybupbe.png" alt="Giày búp bê">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giaybupbe.png" class="product-name">Giày búp bê</a>
+                                <p class="price">900.000đ</p>
+                                <a href="giaybupbe.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/giayluoi.png" alt="Áo sơ mi dài tay">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/giayluoi.png" class="product-name">Giày lười</a>
+                                <p class="price">1.000.000đ</p>
+                                <a href="giayluoi.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <span class="badge">-15%</span>
+                            <label class="zoom-box">
+                                <img src="img/tuideocheo.png" alt="Túi đeo chéo">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/tuideocheo.png" class="product-name">Túi đeo chéo</a>
+                                <p class="price"><del>400.000đ</del> 340.000đ</p>
+                                <a href="tuideocheo.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/donghodeotay.png" alt="Đồng hồ đeo tay">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/donghodeotay.png" class="product-name">Đồng hồ đeo tay</a>
+                                <p class="price">2.700.000đ</p>
+                                <a href="donghodeotay.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/khanquangco.png" alt="Khăn quàng cổ">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/khanquangco.png" class="product-name">Khăn quàng cổ</a>
+                                <p class="price">400.000đ</p>
+                                <a href="khanquangco.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/kinhmatgongtron.png" alt="Kính mắt gọng tròn">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/kinhmatgongtron.png" class="product-name">Kính mắt gọng tròn</a>
+                                <p class="price">600.000đ</p>
+                                <a href="kinhmatgongtron.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/muluoitrai.png" alt="Mũ lưỡi trai">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/muluoitrai.png" class="product-name">Mũ lưỡi trai</a>
+                                <p class="price">500.000đ</p>
+                                <a href="muluoitrai.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/thatlungda.png" alt="Thắt lưng da">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/thatlungda.png" class="product-name">Thắt lưng da</a>
+                                <p class="price">450.000đ</p>
+                                <a href="thatlungda.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/vongtayhattron.png" alt="Vòng tay hạt tròn">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/vongtayhattron.png" class="product-name">Vòng tay hạt tròn</a>
+                                <p class="price">700.000đ</p>
+                                <a href="vongtayhattron.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/vidagap.png" alt="Ví da gấp">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/vidagap.png" class="product-name">Ví da gấp</a>
+                                <p class="price">350.000đ</p>
+                                <a href="vidagap.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <span class="badge">-25%</span>
+                            <label class="zoom-box">
+                                <img src="img/quanvaiongrong.png" alt="Quần vải ống rộng">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quanvaiongrong.png" class="product-name">Quần vải ống rộng</a>
+                                <p class="price"><del>600.000đ</del> 450.000đ</p>
+                                <a href="quanvaiongrong.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quanthethaobogau.png" alt="Quần thể thao bo gấu">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quanthethaobogau.png" class="product-name">Quần thể thao bo gấu</a>
+                                <p class="price">550.000đ</p>
+                                <a href="quanthethaobogau.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quanngantuihop.png" alt="Quần ngắn túi hộp">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quanngantuihop.png" class="product-name">Quần ngắn túi hộp</a>
+                                <p class="price">570.000đ</p>
+                                <a href="quanngantuihop.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quannganlungthun.png" alt="Quần ngắn lưng thun">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quannganlungthun.png" class="product-name">Quần ngắn lưng thun</a>
+                                <p class="price">510.000đ</p>
+                                <a href="quannganlungthun.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quandaivailanh.png" alt="Quần dài vải lanh">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quandaivailanh.png" class="product-name">Quần dài vải lanh</a>
+                                <p class="price">450.000đ</p>
+                                <a href="quandaivailanh.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quanboongsuong.png" alt="Quần bò ống suông">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quanboongsuong.png" class="product-name">Quần bò ống suông</a>
+                                <p class="price">600.000đ</p>
+                                <a href="quanboongsuong.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quanboongloe.png" alt="Quần bò ống loe">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quanboongloe.png" class="product-name">Quần bò ống loe</a>
+                                <p class="price">580.000đ</p>
+                                <a href="quanboongloe.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <label class="zoom-box">
+                                <img src="img/quanauongdung.png" alt="Quần âu ống đứng">
+                            </label>
+                            <div class="product-info">
+                                <a href="img/quanauongdung.png" class="product-name">Quần âu ống đứng</a>
+                                <p class="price">540.000đ</p>
+                                <a href="quanauongdung.html" class="btn">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+    <footer class="site-footer">
+        <p class="footer-brand">Vinh <span>Store</span></p>
+        <p class="footer-tagline">Đơn giản mỗi ngày, tự tin theo cách bạn.</p>
+        <p class="copyright">© 2026 Vinh Store</p>
+    </footer>
+</body>
+</html>

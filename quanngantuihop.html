@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container header-top">
+            <div class="brand">
+                <img src="img/arch.png" alt="logo" class="logo">
+                <a href="index.html" class="store">Vinh <span>Store</span></a>
+            </div>
+            <form class="search-box" action="#">
+                <input type="text" placeholder="Tìm sản phẩm...">
+                <button type="submit">Tìm</button>
+            </form>
+            <a href="gio-hang.html" class="cart">
+                Giỏ hàng <span class="cart-count">0</span>
+            </a>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li>
+                        <a href="danh-muc.html">Sản phẩm ▾</a>
+                        <ul class="dropdown">
+                        <li><a href="danh-muc-ao.html" >Áo</a></li>
+                        <li><a href="danh-muc-quan.html">Quần</a></li>
+                        <li><a href="danh-muc-giay.html">Giày</a></li>
+                        <li><a href="danh-muc-phu-kien.html">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html" class="login-link">Đăng nhập</a></li>
+                    <li><a href="register.html" class="register-link">Đăng ký</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Trang chủ</a><span>&gt;</span>
+                <a href="danh-muc.html">Sản phẩm</a><span>&gt;</span>
+                <a href="danh-muc-quan.html">Quần</a><span>&gt;</span>
+                <a href="quanngantuihop.html">Quần ngắn túi hộp</a>
+            </div>
+
+            <section class="detail">
+                <div class="detail-gallery">
+                    <label class="zoom-box">
+                        <img src="img/quanngantuihop.png" alt="Quần ngắn túi hộp">
+                    </label>
+                </div>
+
+                <div class="detail-info">
+                    <h1>Quần ngắn túi hộp</h1>
+                    <p class="price">570.000đ</p>
+
+
+                <div class="option">
+                    <label>Kích cỡ:</label><br>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </div>
+                <div class="option">
+                    <label>Màu sắc:</label><br>
+                    <select>
+                        <option>Đen</option>
+                        <option>Xanh dương</option>
+                        <option>Trắng</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label>Số lượng:</label><br>
+                    <input type="number" value="1" min="1" class="quantity">
+                </div>
+
+                <a href="#" class="btn">Thêm vào giỏ</a>
+                </div>
+            </section>
+            
+            <section class="detail-more">
+                <h2>Bảng size</h2>
+                <table>
+                    <tr>
+                        <th>Size</th>
+                        <th>Chiều cao (cm)</th>
+                        <th>Cân nặng (kg)</th>
+                    </tr>
+                    <tr><td>S</td><td>150-160</td><td>45-52</td></tr>
+                    <tr><td>M</td><td>160-168</td><td>52-60</td></tr>
+                    <tr><td>L</td><td>168-175</td><td>60-70</td></tr>
+                    <tr><td>XL</td><td>175-183</td><td>70-80</td></tr>
+                </table>
+
+                <h2>Đánh giá của khách hàng</h2>
+                <div class="review"><strong>lananhhello1123: </strong>Áo rất là mát và đẹp, nên mua.</div>
+                <div class="review"><strong>minhquan12345: </strong>Áo chất lượng rất tốt, mang rất thoải mái và dễ chịu.</div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Sản phẩm liên quan</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <label class="zoom-box">
+                            <img src="img/quandaivailanh.png" alt="Quần dài vải lanh">
+                        </label>
+                        <div class="product-info">
+                            <a href="quandaivailanh.html" class="product-name">Quần dài vải lanh</a>
+                            <p class="price">450.000đ</p>
+                            <a href="quandaivailanh.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge">-25%</span>
+                        <label class="zoom-box">
+                            <img src="img/quanvaiongrong.png" alt="Quần vải ống rộng">
+                        </label>
+                        <div class="product-info">
+                            <a href="quanvaiongrong.html" class="product-name">Quần vải ống rộng</a>
+                            <p class="price"><del>600.000đ</del> 450.000đ</p>
+                            <a href="quanvaiongrong.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <label class="zoom-box">
+                            <img src="img/quanboongloe.png" alt="Quần bò ống loe">
+                        </label>
+                        <div class="product-info">
+                            <a href="quanboongloe.html" class="product-name">Quần bò ống loe</a>
+                            <p class="price">580.000đ</p>
+                            <a href="quanboongloe.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>2
+                    <div class="product-card">
+                        <label class="zoom-box">
+                            <img src="img/quanboongsuong.png" alt="Quần bò ống suông">
+                        </label>
+                        <div class="product-info">
+                            <a href="quanboongsuong.html" class="product-name">Quần bò ống suông</a>
+                            <p class="price">600.000đ</p>
+                            <a href="quanboongsuong.html" class="btn">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>    
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-brand">Vinh <span>Store</span></p>
+        <p class="footer-tagline">Đơn giản mỗi ngày, tự tin theo cách bạn.</p>
+        <p class="copyright">© 2026 Vinh Store</p>
+    </footer>
+</body>
+</html>

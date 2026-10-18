@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container header-top">
+            <div class="brand">
+                <img src="img/arch.png" alt="logo" class="logo">
+                <a href="index.html" class="store">Vinh <span>Store</span></a>
+            </div>
+            <form class="search-box" action="#">
+                <input type="text" placeholder="Tìm sản phẩm...">
+                <button type="submit">Tìm</button>
+            </form>
+            <a href="gio-hang.html" class="cart">
+                Giỏ hàng <span class="cart-count">0</span>
+            </a>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li>
+                        <a href="danh-muc.html">Sản phẩm ▾</a>
+                        <ul class="dropdown">
+                        <li><a href="danh-muc-ao.html" >Áo</a></li>
+                        <li><a href="danh-muc-quan.html">Quần</a></li>
+                        <li><a href="danh-muc-giay.html">Giày</a></li>
+                        <li><a href="danh-muc-phu-kien.html">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html" class="login-link">Đăng nhập</a></li>
+                    <li><a href="register.html" class="register-link">Đăng ký</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h1>Bộ sưu tập quần áo 2026</h1>
+            <p>Nhiều mẫu mới, giảm giá đến 30%</p>
+            <a href="danh-muc.html" class="btn">Mua ngay</a>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="section-title">Danh mục sản phẩm</h2>
+                <div class="category-grid">
+                    <a href="danh-muc-ao.html" class="category-item">
+                        <img src="img/aothuntroncotron.png" alt="Áo">
+                        <span>Áo</span>
+                    </a>
+                    <a href="danh-muc-quan.html" class="category-item">
+                        <img src="img/quanauongdung.png" alt="Quần">
+                        <span>Quần</span>
+                    </a>
+                    <a href="danh-muc-giay.html" class="category-item">
+                        <img src="img/giaythethaocothap.png" alt="Giày">
+                        <span>Giày</span>
+                    </a>
+                    <a href="danh-muc-phu-kien.html" class="category-item">
+                        <img src="img/tuideocheo.png" alt="Phụ kiện">
+                        <span>Phụ kiện</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section promo">
+            <div class="container">
+                <h2 class="section-title">Đang giảm giá</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <span class="badge">-30%</span>
+                        <label class="zoom-box">
+                            <img src="img/aothuntroncotron.png" alt="Áo thun trơn cổ tròn">
+                        </label>
+                        <div class="product-info">
+                            <a href="aothuntroncotron.html" class="product-name">Áo thun trơn cổ tròn</a>
+                            <p class="price"><del>350.000đ</del> 245.000đ</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge">-25%</span>
+                        <label class="zoom-box">
+                            <img src="img/quanvaiongrong.png" alt="Quần vải ống rộng">
+                        </label>
+                        <div class="product-info">
+                            <a class="product-name">Quần vải ống rộng</a>
+                            <p class="price"><del>600.000đ</del> 450.000đ</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge">-20%</span>
+                        <label class="zoom-box">
+                            <img src="img/giaythethaocothap.png" alt="Giày thể thao cổ thấp">
+                        </label>
+                        <div class="product-info">
+                            <a href="giaythethaocothap.html" class="product-name">Giày thể thao cổ thấp</a>
+                            <p class="price"><del>1.000.000đ</del> 800.000đ</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge">-15%</span>
+                        <label class="zoom-box">
+                            <img src="img/tuideocheo.png" alt="Túi đeo chéo">
+                        </label>
+                        <div class="product-info">
+                            <a href="tuideocheo.html" class="product-name">Túi đeo chéo</a>
+                            <p class="price"><del>400.000đ</del> 340.000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="carousel">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/firstbanner.png"
+                    alt="Bộ sưu tập mới"
+                    class="d-block w-100">
+
+                <div class="slide-content">
+                    <h2>Bộ sưu tập mới 2026</h2>
+                    <p>Diện đồ mới, tự tin mỗi ngày.</p>
+                    <a href="danh-muc.html" class="slide-button">Khám phá ngay</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/secondbanner.png"
+                    alt="Ưu đãi đến 30%"
+                    class="d-block w-100">
+
+                <div class="slide-content">
+                    <h2>Ưu đãi đến 30%</h2>
+                    <p>Mẫu đẹp, giá tốt — chọn ngay món bạn yêu thích!</p>
+                    <a href="danh-muc.html" class="slide-button">Mua ngay</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/thirdbanner.png"
+                    alt="Bộ sưu tập phụ kiện"
+                    class="d-block w-100">
+
+                <div class="slide-content">
+                    <h2>Phụ kiện nhỏ,<br>điểm nhấn lớn</h2>
+                    <p>Hoàn thiện phong cách theo cách của bạn.</p>
+                    <a href="danh-muc-phu-kien.html" class="slide-button">Xem phụ kiện</a>
+                </div>
+            </div>
+        </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    </div>
+                    </div>
+                </section>
+                <br>
+                <br>
+            </main>
+            <footer class="site-footer">
+                <p class="footer-brand">Vinh <span>Store</span></p>
+                <p class="footer-tagline">Đơn giản mỗi ngày, tự tin theo cách bạn.</p>
+                <p class="copyright">© 2026 Vinh Store</p>
+            </footer>
+        </body>
+        </html>
